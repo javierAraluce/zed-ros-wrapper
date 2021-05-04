@@ -1,5 +1,11 @@
 ![](./images/Picto+STEREOLABS_Black.jpg)
 
+#Install SDK on docker
+```
+export USER=insert_user
+sudo mkdir -p /etc/udev/rules.d/
+sudo apt install udev
+```
 # Stereolabs ZED Camera - ROS Integration
 
 This package lets you use the ZED stereo camera with ROS. It outputs the camera left and right images, depth map, point cloud, pose information and supports the use of multiple ZED cameras.
